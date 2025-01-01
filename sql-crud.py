@@ -80,6 +80,13 @@ tim_berners_lee = Programmer(
     famous_for="World Wide Web"
 )
 
+chijioke philip = Programmer(
+    first_name="Chijioke",
+    last_name="Philip",
+    gender="M",
+    nationality="Nigerian",
+    famous_for="Code Institute"
+)
 # add each instance of our programmers to our session
 # session.add(ada_lovelace)
 # session.add(alan_turing)
@@ -87,6 +94,7 @@ tim_berners_lee = Programmer(
 # session.add(margaret_hamilton)
 # session.add(bill_gates)
 # session.add(tim_berners_lee)
+# session.add(chijioke_philip)
 
 # commit our session to the database
 # session.commit()
